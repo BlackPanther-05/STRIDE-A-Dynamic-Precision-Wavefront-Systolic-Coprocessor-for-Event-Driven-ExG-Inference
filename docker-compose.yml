@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  artifact-evaluation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output_figures:/workspace/output_figures
+    environment:
+      - PYTHONUNBUFFERED=1

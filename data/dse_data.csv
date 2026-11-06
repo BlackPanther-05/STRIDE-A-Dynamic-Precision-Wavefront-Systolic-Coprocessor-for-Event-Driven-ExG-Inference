@@ -1,0 +1,5 @@
+Array Size,Software Cycles,Hardware Cycles,Speedup (x),Arty A7 Power (mW),ZCU106 Power (mW),Arty A7 Efficiency (Speedup/mW),ZCU106 Efficiency (Speedup/mW)
+3x3,126234,250,505,2.0,0.9,252.5,561.1
+4x4,482936,250,1932,3.0,2.0,644.0,966.0
+5x5,673750,250,2695,5.0,3.0,539.0,898.3
+8x8,1454500,250,5818,9.0,7.0,646.4,831.1
